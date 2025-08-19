@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>radio</title>
-  </head>
-  <body>
-    <video width="800" controls autoplay>
-      <source src="radio.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>Radio Activity</title>
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    video {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <video src="radio.mp4" autoplay controls loop></video>
+</body>
 </html>
